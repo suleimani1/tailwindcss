@@ -2,67 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" -->
-    <!-- /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#FBF7EE]">
-    <nav class="flex justify-around">
-        <div class="logo mt-5">
-            <h1>Branding</h1>
-        </div>
-        <div class="nav-images mt-5">
-
-        </div>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul class="flex mt-6 justify-center">
+            <li>
+                <a href="" class="ml-20 pb-2 border-b-2 border-[#1BC8D3] text-[#1BC8D3]">Home</a>
+            </li>
+            <li>
+                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Skills</a>
+            </li>
+            <li>
+                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Service</a>
+            </li>
+            <li>
+                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Work</a>
+            </li>
+        </ul>
     </nav>
 
-    <header class="mt-20 flex justify-around">
-        <div class="card-one">
-            <h3 class="font-bold mb-9 text-3xl">Spring / Summer Vibs</h3>
-            <p class="font-light w-85">To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account. Once configured, you can perform standard operations.
-            </p>
-            <img src="imagesProject/pexels-life-of-pix-7974.jpg" alt="" class="mt-8 w-75 h-80">
-            <button class="border border-[#AF7452] text-[#AF7452] mt-3 pt-2 pb-2 pr-5 pl-5">Explore</button>
+    <!-- Header -->
+    <header class="flex lg:flex-row md:flex-col sm:flex-col justify-between items-center mt-20">
+        <div>
+            <img src="imagesProject/pexels-olly-840996.jpg" alt="" class="ml-2 rounded-sm">
         </div>
-        <div class="card-two">
-            <img src="imagesProject/pexels-junior-teixeira-1064069-2047905.jpg" alt="" class="mt-8 w-75 rounded-t-[20rem]">
-            <p class="font-light mb-8 w-85">To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account. Once configured, you can perform standard operations.
-            </p>
+        <div class="mr-10 ml-10 sm:mt-24 md:mt-0">
+            <h1 class="font-bold mb-3 text-5xl">Web <span class="text-[#1BC8D3]">Agency</span></h1>
+            <p class="mb-6 w-96">To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account. Once configured, you can perform standard operations.</p>
+            <div class="btn-container">
+                <button class="bg-[#1BC8D3] text-white pt-2 pb-2 pl-10 pr-10 mr-5 mb-2 rounded">Services</button>
+                <button class="border-b-2 border-black text-black p-2 ml-7 mb-2">Learn More</button>
+            </div>
+            <div class="flex justify-around md:flex-row sm:flex-col">
+                <div class="flex flex-col justify-center items-center p-2 mr-5 mt-2 bg-[#1BC8D3] rounded">
+                    <h1 class="mt-5">
+                        <span class="font-bold">5 Star </span>Experience
+                    </h1>
+                    <p class="w-60 text-center p-2">
+                        To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center mt-2 mr-5 p-2 bg-[#5de8f1] bg-opacity-20 rounded">
+                    <h1 class="mt-5">Make <span class="font-bold">Your </span>Offer</h1>
+                    <p class="text-center p-2 w-60">
+                        To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
+                    </p>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="flex justify-around pt-20">
-        <div class="flex flex-col justify-around items-start">
-            <h1 class="text-3xl font-bold mb-9">An Industrial Tech <br> On Streetwear</h1>
-            <p class="w-85 font-light">To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account. Once configured, you can perform standard operations.</p>
-            <button class="border border-[#AF7452] text-[#AF7452] mt-3 pt-2 pb-2 pr-5 pl-5">Shop Now</button>
-        </div>
-        <img src="imagesProject/pexels-veeterzy-303383.jpg" alt="" class="mb-8 w-75">
-    </section>
-
-    <section class="flex justify-center items-center mt-20 p-10">
-        <div class="p-10 ml-10">
-            <h1 class="font-bold mb-6">Buy now, Pay later</h1>
-            <p class="font-thin w-56">0% interest financing avilable pay for 30 days</p>
-            <button class="border border-[#AF7452] text-[#AF7452] mt-3 pt-2 pb-2 pr-5 pl-5">Shop Now</button>
-        </div>
-        <div class="p-10 ml-10">
-            <h1 class="font-bold mb-6">Cashback Reward</h1>
-            <p class="font-thin w-56">Collects and Redeem on every order that you purchase</p>
-            <button class="border border-[#AF7452] text-[#AF7452] mt-3 pt-2 pb-2 pr-5 pl-5">Shop Now</button>
-        </div>
-        <div class="p-10 ml-10">
-            <h1 class="font-bold mb-6">Secure Payment</h1>
-            <p class="font-thin w-56">Guarantee 100% secure payment in our website</p>
-            <button class="border border-[#AF7452] text-[#AF7452] mt-3 pt-2 pb-2 pr-5 pl-5">Shop Now</button>
+    <section class="flex justify-between items-center md:flex-row sm:flex-col md:text-left sm:text-center mt-10 ml-40">
+        <div>
+            <h1 class="text-5xl mb-10">
+                Our <br> <span class="text-[#1BC8D3]">Skills</span>
+            </h1>
+            <p class="w-96 mb-10">
+                To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
+            </p>
         </div>
     </section>
-    <script type="module" src="/src/main.js"></script>
+    <script type=" module " src="/src/main.js "></script>
 </body>
 
 </html>
