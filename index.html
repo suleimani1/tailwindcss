@@ -4,158 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Agency</title>
+    <title>Acme Rockets</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<!-- Navigation -->
+<nav class="flex bg-teal-700 justify-around h-20 items-center">
+    <a href="" class="text-white text-2xl font-semibold">Acme Rockets</a>
+    <div class="flex items-left">
+        <a href="" class="inline mr-10 text-white text-xl">Our Rockets</a>
+        <a href="" class="inline mr-10 text-white text-xl">Testimonial</a>
+        <a href="" class="inline mr-10 text-white text-xl">Contact Us</a>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="flex flex-col lg:flex-row items-center justify-center mt-20 mx-auto py-8 px-4 max-w-6xl gap-10">
+
+    <div class="lg:flex-1">
+        <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl capitalize">
+            we boldly go <br>
+            <span class="text-indigo-700">where no rocket</span><br> has gone
+            <br>before... </h1>
+        <p class="mt-6 text-lg md:text-xl text-gray-600">
+            We're building rockets for the next century today. From the moon to Mars, Jupiter and beyond...
+            <br><br> Think Acme Rockets.
+        </p>
+    </div>
+
+    <div class="lg:flex-1 flex justify-center lg:justify-end">
+        <img src="imagesProject/pexels-bertellifotografia-3697811.jpg" alt="" class="max-w-md w-80 h-96 rounded">
+    </div>
+</header>
+<div class="mt-12 flex justify-center items-center">
+    <p class="border border-solid-2 w-96"></p>
+</div>
+
+<section class="mt-10">
+    <h1 class="text-center font-bold mb-10 text-5xl">Our Rockets</h1>
+    <div class="flex justify-center items-center flex-wrap mx-auto">
+        <div class="w-64 m-10 border rounded p-5 border-solid border-1 border-black shadow-xl">
+            <img src="imagesProject\pexels-spacex-23775.jpg">
+            <p class="text-center mt-4 text-3xl">Explorer <br>
+                <span class="text-gray-600">$
+                    </span>
+            </p>
+        </div>
+        <div class="w-64 m-10 border rounded p-5 border-solid border-1 border-black shadow-xl">
+            <img src="imagesProject\pexels-sun452-12467609.jpg">
+            <p class="text-center mt-4 text-3xl">Adventure <br>
+                <span class="text-gray-600">$$
+                    </span>
+            </p>
+        </div>
+        <div class="w-64 m-10 border rounded p-5 border-solid border-1 border-black shadow-xl">
+            <img src="imagesProject\pexels-blue-11479934.jpg">
+            <p class="text-center mt-4 text-3xl">Infinity <br>
+                <span class="text-gray-600">$$$
+                    </span>
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="mt-32 flex justify-center items-center">
+    <p class="border border-solid w-96"></p>
+</div>
+
+<section class="mt-20">
+    <h1 class="text-5xl font-bold text-center">Testimonials</h1>
+    <div class="flex flex-col items-center mx-auto">
+        <div class="bg-teal-600 p-3 text-3xl text-white w-2/3 h-44 rounded mt-10">
+            <p class="py-6 px-4 ">Acme has always been there for me. Their Explorer rocket arrived in a wooden crate as expected. Life-long customer! A++ shopping experience.</p>
+        </div>
+        <div class="bg-teal-600 p-3 text-3xl text-white w-2/3 h-64 rounded mt-10">
+            <p class="py-6 px-4 ">The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive Space Modulator on several occassions. This makes me very, very angry! Nevertheless, K-9 and I have awarded Acme the Martian contract for space exploration rockets based on
+                Acme's quality and sturdy designs</p>
+        </div>
+        <div class="bg-teal-600 p-3 text-3xl text-white w-2/3 h-52 rounded mt-10">
+            <p class="py-6 px-4 ">I knew I not only wanted — I needed — Acme's Infinity Rocket for my mission in space. Acme delivered in one day! Nothing says Take me to your leader like Acme's Infinity Rocket! 💯</p>
+        </div>
+    </div>
+</section>
+
+<div class="mt-32 flex justify-center items-center">
+    <p class="border border-solid w-96"></p>
+</div>
+
+<section class="mt-16">
+    <h1 class="font-bold text-5xl text-center">Contact Us
+    </h1>
+    <div class="ml-40 mt-5 mx-auto">
+        <form class="text-3xl">
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" value="" class="border w-[900px]"><br>
+            <label for="textArea">Message:</label>
+            <br>
+            <input type="textarea" id="textArea" class="border h-96 w-[900px]"> <br>
+            <input type="submit" value="Submit" class="bg-teal-700 hover:bg-teal-600 text-3xl text-white mt-5 w-40 h-14 border rounded-md py-2 px-5 border-black text-center">
+        </form>
+    </div>
+</section>
+
+<footer class="mt-10 py-10 bg-teal-600">
+    <div class="flex justify-around items-center flex-wrap text-white text-xl">
+        <div class="card">
+            <p>Acme Rocket-Powered Produccts, Inc.</p>
+            <p>555 Astro Way</p>
+            <p>Fairfiel, New jersey</p>
+            <p>Email: jumaamshakamai@gmail.com</p>
+            <p>Phone: 0689411509</p>
+        </div>
+        <div class="card">
+            <p>Our Rockets</p>
+            <p>Testimonials</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="card">
+            <p>Copyright 2024</p>
+            <p>All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul class="flex mt-6 justify-center">
-            <li>
-                <a href="" class="ml-20 pb-2 border-b-2 border-[#1BC8D3] text-[#1BC8D3]">Home</a>
-            </li>
-            <li>
-                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Skills</a>
-            </li>
-            <li>
-                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Service</a>
-            </li>
-            <li>
-                <a href="" class="ml-10 pb-2 hover:border-b-2 hover:border-[#1BC8D3] hover:text-[#1BC8D3]">Work</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header class="flex lg:flex-row md:flex-col sm:flex-col justify-between items-center mt-20">
-        <div>
-            <img src="imagesProject/pexels-olly-840996.jpg" alt="" class="ml-2 rounded-sm">
-        </div>
-        <div class="mr-10 ml-10 sm:mt-24 md:mt-0">
-            <h1 class="font-bold mb-3 text-5xl">Web <span class="text-[#1BC8D3]">Agency</span></h1>
-            <p class="mb-6 w-96">To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account. Once configured, you can perform standard operations.</p>
-            <div class="btn-container">
-                <button class="bg-[#1BC8D3] text-white pt-2 pb-2 pl-10 pr-10 mr-5 mb-2 rounded">Services</button>
-                <button class="border-b-2 border-black text-black p-2 ml-7 mb-2">Learn More</button>
-            </div>
-            <div class="flex justify-around md:flex-row sm:flex-col">
-                <div class="flex flex-col justify-center items-center p-2 mr-5 mt-2 bg-[#1BC8D3] rounded">
-                    <h1 class="mt-5">
-                        <span class="font-bold">5 Star </span>Experience
-                    </h1>
-                    <p class="w-60 text-center p-2">
-                        To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
-                    </p>
-                </div>
-                <div class="flex flex-col justify-center items-center mt-2 mr-5 p-2 bg-[#5de8f1] bg-opacity-20 rounded">
-                    <h1 class="mt-5">Make <span class="font-bold">Your </span>Offer</h1>
-                    <p class="text-center p-2 w-60">
-                        To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="flex justify-between items-center md:flex-row sm:flex-col md:text-left sm:text-center mt-10 ml-40">
-        <div>
-            <h1 class="text-5xl mb-10">
-                Our <br> <span class="text-[#1BC8D3]">Skills</span>
-            </h1>
-            <p class="w-96 mb-10">
-                To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.
-            </p>
-            <button class="text-white bg-[#1BC8D3] py-2 px-10 mr-5 mb-5">Services</button>
-        </div>
-        <div class="images">
-            <img src="imagesProject/pexels-life-of-pix-7974.jpg" alt="" class="w-96 mr-10">
-        </div>
-    </section>
-
-    <section class="mt-20">
-        <h1 class="font-bold ml-10 mb-10 text-4xl">Services</h1>
-        <div class="md:h-160 sm:h-auto md:w-60 sm:w-auto items-center flex md:flex-nowrap sm:flex-wrap bg-[#292A2B]">
-            <div class="card-one">
-                <div class="relative w-96 ml-10 mb-10 left-20 top-10 p-10 bg-[#1BC8d3]">
-                    <h1 class="font-bold mb-10">Web <br> Development</h1>
-                    <p> To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.</p>
-                </div>
-                <div class="relative w-96 ml-10 mb-10 left-20 top-10 p-10 bg-[#1BC8d3]">
-                    <h1 class="font-bold mb-10">Web <br> Design</h1>
-                    <p> To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.</p>
-                </div>
-            </div>
-            <div class="card-two">
-                <div class="relative w-96 ml-10 mb-10 left-20 top-10 p-10 bg-[#292A2B] text-white">
-                    <h1 class="font-bold mb-10">Design <br>And Analytic</h1>
-                    <p> To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.</p>
-                </div>
-                <div class="relative w-96 ml-10 mb-10 left-20 top-10 p-10 bg-[#292A2B] text-white">
-                    <h1 class="font-bold mb-10">SEO <br>And SMM</h1>
-                    <p> To interact with a GitHub repository using Git in VS Code, you'll first need to set up Git and connect your GitHub account.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-20">
-        <h1 class="text-right font-bold mr-10 mb-10 text-5xl">Recent Projects</h1>
-        <div class="m-20 flex justify-around items-center flex-wrap mx-auto">
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-veeterzy-303383.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">Laptop Price <br>Prediction model</div>
-            </div>
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-olly-840996.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">Web Design</div>
-            </div>
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-life-of-pix-7974.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">Web Development</div>
-            </div>
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-junior-teixeira-1064069-2047905.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">Web Development</div>
-            </div>
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-fotios-photos-1006293.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">SEO <br>And SMM</div>
-            </div>
-            <div class="w-64 m-10">
-                <img src="imagesProject/pexels-veeterzy-303383.jpg" alt="">
-                <div class="text-white p-2 bg-[#1BC8D3]">System Analysis <br>And Design</div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-10 bg-[#292A2B]">
-        <div class="flex justify-around items-center flex-wrap">
-            <div class="card">
-                <h1 class="font-bold mb-5 text-white">SITE MENU</h1>
-                <p class="text-white">About Us</p>
-                <p class="text-white">Photography</p>
-                <p class="text-white">Lens Index</p>
-            </div>
-            <div class="card">
-                <h1 class="font-bold mb-5 text-white">REVIEW</h1>
-                <p class="text-white">Review Archive</p>
-                <p class="text-white">Camera Reviews</p>
-                <p class="text-white">Lens Reviews</p>
-                <p class="text-white">Other GearReviews</p>
-            </div>
-            <div class="card">
-                <h1 class="font-bold mb-5 text-white">MORE</h1>
-                <p class="text-white">Contact Us</p>
-                <p class="text-white">Subscribe</p>
-                <p class="text-white">Workshops</p>
-                <p class="text-white">Support Us</p>
-            </div>
-        </div>
-    </footer>
-    <script type=" module " src="/src/main.js "></script>
-</body>
-
-</html>
 
 </html>
